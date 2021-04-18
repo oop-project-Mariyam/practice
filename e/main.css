@@ -1,0 +1,136 @@
+body {}
+
+header {}
+
+.logo-box {
+  padding: 0px 8px;
+}
+
+.logo-image {
+  float: left;
+}
+
+.container {
+  height: 180px;
+  background-image: url("header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  color: white;
+}
+
+blockquote {
+  position: relative;
+  top: 20%;
+  padding: 10px;
+  background-color: #bbdfc8;
+}
+
+.whoami {
+}
+
+.whoami .inside{
+  color: white;
+  width: 33.33%;
+  height: 270px;
+  display: inline-block;
+  float: left;
+}
+
+#first {
+  background-color: #bbdfc8;
+}
+
+.vl {
+  border-left: 6px solid grey;
+  border-left-style: dotted;
+  position: relative;
+  margin: 30px 0px 30px 30px;
+  padding-left: 5px;
+  height: 70%;
+}
+
+#second {
+  text-align: center;
+  top: 25%;
+  position: relative;
+  left: 16px;
+  background-color: grey;
+}
+#second p{
+  height: 80%;
+}
+#third {
+  float: right;
+    padding-top: 30px;
+  border: 6px solid grey;
+  box-sizing: border-box;
+  display: flex;
+justify-content: center;
+}
+
+#third img {
+  width: 60%;
+  height: 70%;
+  border-radius: 10%;
+  border: 2px solid grey;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#sidebar {
+  height: 100%;
+  width: 30%;
+  float: left;
+  position: sticky;
+  display: block;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin: 10px 0px;
+}
+
+main {
+  width: 70%;
+  float: right;
+  border-left: 6px solid grey;
+  height: 100%;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.gallery {
+}
+.box{
+  width: 33.33%;
+  height: 270px;
+  display: inline-block;
+  float: left;
+}
+
+#one {
+  background-color: #bbdfc8;
+}
+
+
+#two {
+  text-align: center;
+  top: 25%;
+  position: relative;
+  left: 16px;
+  background-color: grey;
+}
+#three {
+  float: right;
+    padding-top: 30px;
+  border: 6px solid grey;
+  box-sizing: border-box;
+  display: flex;
+justify-content: center;
+}
+
+footer {
+  clear: both;
+}
