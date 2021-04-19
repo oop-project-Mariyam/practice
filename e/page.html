@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="main.css">
   <link rel="shortcut icon" href="myicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -12,16 +14,16 @@
     <div class="logo-box">
       <img src="healthy-life.png" class="logo-image" height="100" border="5">
       <font size="10"><em><strong>MHL: Mariyam's Healthy Living </strong></em></font>
-      <h2>Eating healthy can be joyful with MHL Blog!</h2>
+      <h1>Eating healthy can be joyful with MHL Blog!</h1>
     </div>
-    <div class="container">
+    <div class="quote">
       <blockquote cite="https://www.purewow.com/wellness/healthy-eating-quotes">
         <tt>“THE DOCTOR OF THE FUTURE WILL NO LONGER TREAT THE HUMAN FRAME WITH DRUGS, BUT RATHER WILL CURE AND PREVENT DISEASE WITH NUTRITION.”</tt>
         <pre>- THOMAS EDISON, INVENTOR AND BUSINESSMAN</pre>
       </blockquote>
     </div>
-  </header>
 
+  </header>
   <div id="sidebar">
     <h2 align="center">Meal Planning</h2>
     <ol>
@@ -29,37 +31,48 @@
       <li><a href="#l">Lunch</a></li>
       <li><a href="#s">Mid Snack</a></li>
       <li><a href="#d">Dinner</a></li>
-      <br>
+    </ol>
+    <h2 align="center">Additional</h2>
+    <ul>
       <li><a href="#t">Tips</a></li>
       <li><a href="#cont">Details</a></li>
-    </ol>
+    </uL>
   </div>
   <main>
-    <div class="whoami">
-      <div class="inside" id="first"><div class="vl">
-        <h1>Who am i?</h1>
-      </div></div>
-      <div class="inside" id="second"><h4>Hello, I'm Mariyam. Currently, I'm freshman student of cybersecurity faculty at AITU.
-      Eventhough, I'm not proffessional dieterian, I have great interest in building habits, which will help to live fulfilled long life.  </h4></div>
+    <div class="container">
+      <div class="inside" id="first">
+        <div class="vl">
+          <h1>Who am i?</h1>
+        </div>
+      </div>
+      <div class="inside" id="second">
+        <h5>Hello, I'm Mariyam.&#129419; <br>Currently, I'm freshman student of cybersecurity faculty at AITU.&#128421;
+          <br>Eventhough, I'm not proffessional dieterian, I have great interest in building habits, which will help to live fulfilled long life. &#128153;
+          <ul>
+            My interests:
+            <li>Astrology&#9801;</li>
+            <li>Reading&#128214;</li>
+            <li>Cooking&#127837;</li>
+            <li>Fashion &#128717;</li>
+          </ul>
+        </h5>
+      </div>
       <div class="inside" id="third">
         <img src="girl.png">
       </div>
     </div>
-    <p><b>My daily meal plan includes three main courses and one snack in-between to keep you feeling satisfied all day long. You'll also get plenty of fiber from whole grains, fruits, vegetables, and legumes.
-        This daily plan recommended for people trying <mark>to lose weight</mark> in long-term condition gradually.</b></p>
-    <p>&#128173;<b>What's a <i>'balanced meal'?</i></b></p>
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/Gmh_xMMJ2Pw?controls=0">
-    </iframe>
-    <span>
-      <div class="gallery">
-        <div class="box" id="one"><div class="vl">
-          <h1>Who am i?</h1>
-        </div></div>
-        <div class="box" id="two"></div>
-        <div class="box" id="three">
-        </div>
+    <div class="container">
+      <h3>&#128173;<b>What's a <i>'balanced meal'?</i></b></h3>
+      <div class="video">
+        <iframe width="600" height="370" src="https://www.youtube.com/embed/Gmh_xMMJ2Pw?controls=0">
+        </iframe>
       </div>
-      <table align="center" , border="">
+    </div>
+    <div id="table" class="container">
+      <h3>&#128270;<b>What'll you get?</b></h3>
+      <p><b>My daily meal plan includes three main courses and one snack in-between to keep you feeling satisfied all day long. You'll also get plenty of fiber from whole grains, fruits, vegetables, and legumes.
+          This daily plan recommended for people trying <mark>to lose weight</mark> in long-term condition gradually.</b></p>
+      <table align="center" border="" width="600" height="370">
         <tr>
           <td colspan="4" align="center"><b><u>Macronutrients, that you'll get:</u></b></td>
         </tr>
@@ -109,13 +122,11 @@
           <td colspan="4" align="right"><b>Total calories: 1783 cal</b></td>
         </tr>
       </table>
+    </div>
 
-    </span>
-
-
-    <div id="b">
+    <div id="b" class="meal container">
       <br>
-
+      <p>
       <h2>Breakfast</h2>
       <ul>
         <li>One grapefruit</li>
@@ -124,17 +135,14 @@
         <li>One cup low-fat milk</li>
         <li>One cup of black coffee or herbal tea</li>
       </ul>
-
-
-      <img src="b.webp" height="200" border="5">
-
-
+      </p>
+      <img src="b.webp">
     </div>
 
 
 
 
-    <div id="l">
+    <div id="l" class="container meal">
       <br>
 
       <h2>Lunch</h2>
@@ -145,7 +153,7 @@
       </ul>
 
 
-      <img align="center" src="d.png" height="200" border="5">
+      <img src="d.png">
 
 
     </div>
@@ -154,7 +162,7 @@
 
 
 
-    <div id="s">
+    <div id="s" class="container meal">
       <br>
 
       <h2>Mid Snack</h2>
@@ -165,7 +173,7 @@
       </ul>
 
 
-      <img align="right" src="s.jpeg" height="200" border="5">
+      <img src="s.jpeg">
 
 
     </div>
@@ -174,7 +182,7 @@
 
 
 
-    <div id="d">
+    <div class="container meal" id="d">
       <br>
 
       <h2>Dinner</h2>
@@ -185,16 +193,9 @@
         <li>Small garden salad with one cup spinach leaves, tomato, and onion topped with two tablespoons oil and vinegar or salad dressing</li>
         <li>Sparkling water with lemon or lime slice</li>
       </ul>
-
-
-      <img align="center" src="d.jpeg" height="200" border="5">
-
-
+      <img src="d.jpeg">
     </div>
-
-
-
-    <div id="t">
+    <div id="t" class="container">
       <br>
       <h2>Tips:</h2>
       <dl>
@@ -229,7 +230,14 @@
       </dl>
       <br>
     </div>
-    <div id="cont" align="center">
+    <div class="transboxes">
+      <div class="box" id="one">
+      </div>
+      <div class="box" id="two"></div>
+      <div class="box" id="three">
+      </div>
+    </div>
+    <div id="ques" align="center" class="container">
       <h2>Any questions?</h2>
       <small>Don't hesitate and email me for further information</small></h3>
       <form action="mailto:contact@ms.ddd.fff@gmail.com" method="POST" enctype="multipart/form-data">
@@ -246,17 +254,18 @@
         </p>
       </form>
     </div>
-    <details>
+    <details id="cont">
       <summary>Contact details</summary>
       <address>
-        Email: mariyam12@gmail.com <br>
-        Phone number: +77082312132<br>
-        Address: <br>
+        <span>Email:</span> mariyam12@gmail.com <br>
+        <span>Phone number:</span> +77082312132<br>
+        <span>Address:</span> <br>
         Kazakhstan<br>
         Nur-sultan<br>
         Turkistan, 30
       </address>
     </details>
+
   </main>
   <footer align="center">
     <br>
